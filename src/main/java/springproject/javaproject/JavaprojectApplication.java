@@ -1,0 +1,15 @@
+package springproject.javaproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+
+@SpringBootApplication
+public class JavaprojectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JavaprojectApplication.class, args);
+	}
+
+}
